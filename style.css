@@ -1,0 +1,76 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bc.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 450px;
+    background-color: aquamarine;
+    margin: 100px auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: rgba(45, 47, 50, 0.622);
+    border-radius: 10px;
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+#enter-email{
+    background-color: #ffffff;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0px 5px 0px 20px;
+    border-radius: 5px;
+}
+#enter-pass{
+    background-color: ffffff;
+    height: 40px;
+    margin-top: 25px;
+    padding: 0px 5px 0px 20px;
+    border-radius: 5px;
+}
+
+.check-text{
+    margin-top: 10px;
+    display: flex;
+    width: 350px;
+    gap: 210px;
+}
+.check-text a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#log-in{
+    margin-top: 40px;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    opacity: .7;
+    font-size: .9rem;
+    background-color: aliceblue;
+}
+
+#log-in:hover{
+    /* color: #ffffff; */
+    /* background-color: aqua; */
+    opacity: 1;
+    cursor: pointer;
+    border-color: 2px solid black;
+}
